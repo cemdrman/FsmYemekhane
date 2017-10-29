@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "30337085096",
+    "firebase_url": "https://fsmvuyemekhane.firebaseio.com",
+    "project_id": "fsmvuyemekhane",
+    "storage_bucket": "fsmvuyemekhane.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30337085096:android:0ebd533fb3f39526",
+        "android_client_info": {
+          "package_name": "cemdirman.com.yemekhane"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30337085096-r4gpff7egm8g042qr68o25f537octkl0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cemdirman.com.yemekhane",
+            "certificate_hash": "37177385be791cfc1909f2f8c98c3173b06a60c3"
+          }
+        },
+        {
+          "client_id": "30337085096-lv1i715mqpih2r1k6junrd15cgoatr6i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd22F3MrxoqKrAupFEaGCsMAQ2oEUyagw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30337085096-lv1i715mqpih2r1k6junrd15cgoatr6i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

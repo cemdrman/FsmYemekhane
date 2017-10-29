@@ -9,7 +9,7 @@ import cemdirman.com.yemekhane.R;
 
 
 public class SplashScreenActivity extends Activity {
-    // Splash screen timer
+
     private static int SPLASH_TIME_OUT = 3000;
 
     @Override
@@ -26,13 +26,9 @@ public class SplashScreenActivity extends Activity {
 
             @Override
             public void run() {
-                // This method will be executed once the timer is over
-                // Start your app main activity
-                //DB dolu ise main activity açılır boş ise login activity
 
                 Intent i = new Intent(SplashScreenActivity.this, MainActivity.class);
                 startActivity(i);
-
                 // close this activity
                 finish();
             }

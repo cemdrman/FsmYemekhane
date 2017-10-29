@@ -8,22 +8,22 @@ import java.util.ArrayList;
 
 public class Menu {
 
-    private String tarih;
-    private ArrayList<Yemek> menu = new ArrayList<>();
+    private static String tarih;
+    private static ArrayList<Yemek> menu = new ArrayList<>();
 
     private Menu(){
-        
+
     }
 
-    public void addYemek(Yemek yemek){
+    public static void addYemek(Yemek yemek){
         menu.add(yemek);
     }
 
-    public ArrayList<Yemek> getMenu(){
+    public static ArrayList<Yemek> getMenu(){
         return menu;
     }
 
-    public String getTarih() {
+    public static String getTarih() {
         return tarih;
     }
 

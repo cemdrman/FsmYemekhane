@@ -16,6 +16,30 @@ public class Yemek {
         this.kalori = kalori;
     }
 
+    public String getAdi() {
+        return adi;
+    }
+
+    public void setAdi(String adi) {
+        this.adi = adi;
+    }
+
+    public double getFiyat() {
+        return fiyat;
+    }
+
+    public void setFiyat(double fiyat) {
+        this.fiyat = fiyat;
+    }
+
+    public int getKalori() {
+        return kalori;
+    }
+
+    public void setKalori(int kalori) {
+        this.kalori = kalori;
+    }
+
     @Override
     public String toString() {
         return "Yemek{" +
@@ -24,4 +48,6 @@ public class Yemek {
                 ", kalori=" + kalori +
                 '}';
     }
+
+
 }
