@@ -1,9 +1,11 @@
-package cemdirman.com.yemekhane;
+package cemdirman.com.yemekhane.activity;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import cemdirman.com.yemekhane.R;
 
 
 public class SplashScreenActivity extends Activity {

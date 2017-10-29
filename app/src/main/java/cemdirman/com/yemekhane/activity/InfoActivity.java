@@ -1,9 +1,11 @@
-package cemdirman.com.yemekhane;
+package cemdirman.com.yemekhane.activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+
+import cemdirman.com.yemekhane.R;
 
 /**
  * Created by cem on 10/29/17.
