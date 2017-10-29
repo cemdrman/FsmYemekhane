@@ -5,66 +5,79 @@
     android:layout_height="match_parent"
     android:background="#ffff">
 
-    <android.support.design.widget.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
-
-    </android.support.design.widget.AppBarLayout>
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingBottom="20dp"
-        android:gravity="center"
         android:orientation="vertical">
-        <LinearLayout
+
+        <android.support.design.widget.AppBarLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <TextView
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/customTextView"
-                android:text="Yemekhane 12:00 - 14:00 arası açıktır."/>
-        </LinearLayout>
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.AppBarLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="9"
+            android:layout_height="match_parent"
+            android:paddingBottom="20dp"
+            android:gravity="center"
             android:orientation="vertical">
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/customTextView"
-                android:text="İkinci Bilgi."/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/customTextView"
-                android:text="ücüncü Bilgi."/>
-        </LinearLayout>
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/customTextView"
+                    android:text="Yemekhane 12:00 - 14:00 arası açıktır."/>
+            </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_weight="1">
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:textColor="#2196F3"
-                style="@style/customTextView"
-                android:text="Bilişim ve Teknoloji Kulubü"/>
-            <TextView
+                android:layout_weight="9"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/customTextView"
+                    android:text="İkinci Bilgi."/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/customTextView"
+                    android:text="ücüncü Bilgi."/>
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:textColor="#2196F3"
-                style="@style/customTextView"
-                android:text="Cem DIRMAN"/>
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#2196F3"
+                    style="@style/customTextView"
+                    android:text="Bilişim ve Teknoloji Kulubü"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#2196F3"
+                    style="@style/customTextView"
+                    android:text="Cem DIRMAN"/>
+            </LinearLayout>
+
         </LinearLayout>
 
     </LinearLayout>
