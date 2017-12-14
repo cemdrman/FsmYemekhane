@@ -76,6 +76,15 @@
                     android:textColor="#2196F3"
                     style="@style/customTextView"
                     android:text="Cem DIRMAN"/>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="İbrahim Enes AYDOĞDU"
+                    android:textColor="#2196F3"
+                    android:gravity="center"
+                    android:textSize="20sp" />
             </LinearLayout>
 
         </LinearLayout>
