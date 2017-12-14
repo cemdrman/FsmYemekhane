@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:background="#000000"
+    android:gravity="center_vertical"
+    android:id="@+id/custom_notf"
+    >
+    <ImageView
+        android:id="@+id/notf_image"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/notf_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="Yemek servisi başladı!"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/txtYemekSaatleri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yemekhane 12:00 - 14:00 arası açıktır."
+            android:textColor="@android:color/darker_gray"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
